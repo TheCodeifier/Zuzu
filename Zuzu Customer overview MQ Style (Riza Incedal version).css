@@ -1,0 +1,45 @@
+@media screen and (max-device-width: 480px) {
+    .card3 {
+        width: 325px;
+        left: 10px;
+    }
+
+    .card4 {
+        width: 325px;
+        left: 10px;
+        top: 130px;
+    }
+
+    .footer {
+        position: relative;
+        bottom: -250px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-device-width: 992px) {
+.card3 {
+    position: relative;
+    width: 300px;
+    left: 10px;
+}
+
+    .card4 {
+        position: relative;
+        width: 300px;
+        left: 335px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .navbar {
+        padding: 0;
+    }
+    .navbar .navbar-nav .nav-link {
+        padding: 1em 0.7em;
+    }
+    .navbar .navbar-brand {
+        padding: 0 0.8em;
+    }
+
+}
