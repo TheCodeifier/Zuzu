@@ -38,7 +38,7 @@ $residencePlace = "";
                     <a class="nav-link text-white" aria-current="page" href="/Project%20Zuzu/PHP%20Files/Zuzu%20Homepage%20(Riza%20Incedal%20version).php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="/Project%20Zuzu/PHP%20Files/Zuzu%20Sushi%20page%20(Riza%20Incedal%20version).php">Order</a>
+                    <a class="nav-link text-white" href="/Project%20Zuzu/PHP%20Files/Zuzu%20Customer&20Details%20(Riza%20Incedal%20version).php">Order</a>
                 </li>
             </ul>
         </div>

@@ -1,20 +1,18 @@
-/*Zuzu Style (Riza Incedal)*/
-
 html, h1, h2, h3, p, body, text1, text2, footer {
-    font-family: 'Kiwi Maru', serif; !important;
+    font-family: 'Kiwi Maru', serif;
 }
 
 .navbar .navbar-nav .nav-link:hover {
     color: black;
     border-radius: 30px;
     background-color:  grey
- } 
+}
 .navbar .navbar-nav .nav-link {
-  transition: all 0.5s;
+    transition: all 0.5s;
 }
 .navbar .navbar-brand {
-  font-size: 1.5em;
-  font-weight: bold;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .image-resize {
@@ -22,58 +20,108 @@ html, h1, h2, h3, p, body, text1, text2, footer {
     width: 100%;
 }
 
-.sForm {
-  top: 100px;
-  padding: 20px;
-}
-
 .heading1 {
-  display: inline-block;
-  top:  50px;
-  left:  0px;
+    position: relative;
+    display: inline-block;
+    top:  50px;
+    left:  0px;
+}
+.heading2 {
+    position: relative;
+    display: inline-block;
+    top:  50px;
+    left:  0px;
 }
 
 .button1 {
-  position: relative;
-  top: 230px;
+    position: relative;
+    top: 220px;
+}
+
+.button2 {
+    top: 220px;
+    left: 82px;
 }
 
 .input1 {
-  position: relative;
-  top: -25px;
+    position: relative;
+    top: 65px;
 }
 
 .input2 {
-  position: relative;
-  top: -15px;
+    position: relative;
+    top: 80px;
 }
 
 .input3 {
-  position: relative;
-  top: -5px;
+    position: relative;
+    top: 95px;
 }
 
-.input4{
-  position: relative;
-  top: -11px;
+.input4 {
+    width: 1115px;
+    position: relative;
+    top: 122px;
+    left: 82px;
+}
+
+.input5 {
+    width: 1115px;
+    position: relative;
+    top: 145px;
+    left: 82px;
+
 }
 
 .input6 {
-  position: relative;
-  top: 10px;
+    width: 1115px;
+    position: relative;
+    top: 170px;
+    left: 82px;
 }
+
+.input7 {
+top: 65px;
+}
+
+
+.input8 {
+    top: 95px;
+}
+
+.input9 {
+    top: 125px;
+}
+
+.input10 {
+top: 135px;
+}
+
+.input11 {
+top: 160px;
+}
+
+.input12 {
+    top: 185px;
+}
+
 .card1 {
-  height: 300px; 
-  width: 450px; 
-  top: 10px;
-  left: 80px;
+    height: 300px;
+    width: 450px;
+    top: 10px;
+    left: 80px;
 }
 
 .card2 {
-  height: 300px; 
-  width: 450px; 
-  top: -290px;
-  left: 600px;
+    height: 300px;
+    width: 450px;
+    top: -290px;
+    left: 600px;
+}
+
+.card3 {
+    width: 100px;
+    height: 300px;
 }
 
 .container1 {
@@ -82,8 +130,7 @@ html, h1, h2, h3, p, body, text1, text2, footer {
 
 .container2 {
     position: relative;
-    top: 5px;
-    overflow: hidden;
+    top: 1px;
 }
 
 .logo {
@@ -91,92 +138,127 @@ html, h1, h2, h3, p, body, text1, text2, footer {
     font-size: 10px;
 }
 
+.footer {
+    width: 117%;
+    position: relative;
+    left: -100px;
+}
+
 .link1 {
     text-decoration: none;
     color: white;
 }
 
-.card3 {
-    height: 250px;
-    width: 500px;
-    top: 110px;
-    left: 130px;
-}
-
-.card4 {
-    height: 250px;
-    width: 500px;
-    top: -140px;
-    left: 650px;
-}
-.ct4 {
-    top: 20px;
-}
-
 @media screen and (max-device-width: 480px) {
     .card1 {
-        border: none;
-        height: 210px;
-        width: 150px;
-        left: -5px;
+        height: 180px;
+        width: 180px;
+        left: 5px;
     }
 
     .card2 {
-        border: none;
-        height: 190px;
-        width: 150px;
-        top: -200px;
-        left: 170px;
+        height: 201px;
+        width: 180px;
+        top: -101px;
+        left: 205px;
     }
 
-    .cb1 {
-        height: 110px;
+    .card3 {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: -100px;
+    }
+
+     .input4 {
+         width: 330px;
+      left: 10px;
+     }
+
+     .input5 {
+         width: 330px;
+         left: 10px;
+     }
+
+    .input6 {
+        width: 330px;
+        left: 10px;
     }
 
     .button1 {
-        left: -3px;
+        left: 109px;
         width: 330px;
     }
 
-    .input1 {
+    .button2 {
+        left: 7px;
         width: 330px;
-        left: 10px;
-    }
-
-    .input2 {
-        width: 330px;
-        left: 10px;
     }
 
 }
+
 @media screen and (min-width: 480px) and (max-device-width: 992px) {
-        .card1 {
-            position: relative;
-            height: 300px;
-            width: 300px;
-            top: 83px;
-            left: -55px;
-            padding: 0;
-        }
-
-        .card2 {
-            height: 300px;
-            width: 300px;
-            top: -216px;
-            left: 267px;
-        }
+    body .card1 {
+        height: 260px;
+        width: 300px;
+        top: 83px;
+        left: 50px;
     }
 
-    @media only screen and (min-width: 992px) {
-        .navbar {
-            padding: 0;
-        }
-        .navbar .navbar-nav .nav-link {
-            padding: 1em 0.7em;
-        }
-        .navbar .navbar-brand {
-            padding: 0 0.8em;
-        }
-
+    body .card2 {
+        height: 260px;
+        width: 300px;
+        top: -177px;
+        left: 450px;
     }
 
+    body .ct1 {
+        position: relative;
+        top: -10px;
+    }
+
+    .input1 {
+        left: 3px;
+    }
+
+    .input2 {
+        left: 3px;
+    }
+
+    .input3 {
+        left: 3px;
+    }
+
+    .input4 {
+        left: 69px;
+        width: 519px;
+    }
+
+    .input5 {
+        left: 69px;
+        width: 519px;
+    }
+
+    .input6 {
+        left: 69px;
+        width: 519px;
+    }
+
+    .button2 {
+        left: 70px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .navbar {
+        padding: 0;
+    }
+    .navbar .navbar-nav .nav-link {
+        padding: 1em 0.7em;
+    }
+    .navbar .navbar-brand {
+        padding: 0 0.8em;
+    }
+
+}
