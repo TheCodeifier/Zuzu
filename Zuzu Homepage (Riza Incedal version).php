@@ -50,7 +50,7 @@ if ($currentClock < 00) {
               <a class="nav-link text-white text1" aria-current="page" href="/Project%20Zuzu/PHP%20Files/Zuzu%20Homepage%20(Riza%20Incedal%20version).php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white text2" href="/Project%20Zuzu/PHP%20Files/Zuzu%20Customer Details%20(Riza%20Incedal%20version).php">Order</a>
+              <a class="nav-link text-white text2" href="/Project%20Zuzu/PHP%20Files/Zuzu%20Sushi%20page%20(Riza%20Incedal%20version).php">Order</a>
             </li>
           </ul>
         </div>
