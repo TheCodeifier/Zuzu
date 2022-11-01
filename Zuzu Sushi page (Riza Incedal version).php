@@ -89,8 +89,6 @@ try {
 } catch (PDOException  $error) {
     echo "Error: " . $error->getMessage();
 }
-
-
 ?>
 
 <!DOCTYPE HTML>
