@@ -6,6 +6,9 @@ $emailAdress = "";
 $deliveryAdress = "";
 $postalCode = '';
 $residencePlace = "";
+$servername = "localhost";
+$username = "root";
+$dbname = "zuzu";
 
 if (isset($_POST['firstName'])) {
     $firstName = $_POST['firstName'];
@@ -25,8 +28,43 @@ if (isset($_POST['postalCode'])) {
 if (isset($_POST['residencePlace'])) {
     $residencePlace = $_POST['residencePlace'];
 }
-?>
+try {
+    if(isset($_POST["firstName"])) {
+        $firstName = $_POST["firstName"];
+    }
+    if(isset($_POST["lastName"])) {
+        $lastName = $_POST["lastName"];
+    }
+    if(isset($_POST["emailAdress"])) {
+        $emailAdress = $_POST["emailAdress"];
+    }
+    if(isset($_POST['deliveryAdress'])) {
+        $deliveryAdress = $_POST['deliveryAdress'];
+    }
+    if(isset($_POST['postalCode'])) {
+        $postalCode = $_POST['postalCode'];
+    }
+    if(isset($_POST['residencePlace'])) {
+        $residencePlace = $_POST['residencePlace'];
+    }
 
+    $database = new PDO("mysql:host=$servername;dbname=$dbname", $username);
+    $database->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $database->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $st = $database->prepare("INSERT INTO customer (f_name, l_name, email, address, postal_code, city) VALUES (:firstName, :lastName, :emailAdress, :deliveryAdress, :postalCode, :residencePlace)");
+    $st->bindParam(':firstName', $firstName);
+    $st->bindParam(':lastName', $lastName);
+    $st->bindParam(':emailAdress', $emailAdress);
+    $st->bindParam(':deliveryAdress', $deliveryAdress);
+    $st->bindParam(':postalCode', $postalCode);
+    $st->bindParam(':residencePlace', $residencePlace);
+    $st->execute();
+    echo "Form submission successful!";
+} catch(PDOException $error) {
+    echo "Error: " . $error->getMessage();
+}
+$database = null;
+?>
 
 <!DOCTYPE HTML>
 <head>
@@ -71,6 +109,11 @@ if (isset($_POST['residencePlace'])) {
         <div class="card position-relative card3">
         <div class="card-body">
           <h2>Order</h2>
+
+            <p>Did you know that there's really a sushi restaurant called Zuzu Sushi? <br>
+            It's located in Poltava, Ukraine and their address is Nezalezhnosti Square 5, 36000 Poltava <br>
+            </p>
+            <a href= "https://zuzusushi.com/"><button type="button" class="btn btn-dark">Their website</button></a>
         </div>
         </div>
 
