@@ -50,7 +50,7 @@ if ($currentClock < 00) {
               <a class="nav-link text-white text1" aria-current="page" href="/Project%20Zuzu/PHP%20Files/Zuzu%20Homepage%20(Riza%20Incedal%20version).php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white text2" href="/Project%20Zuzu/PHP%20Files/Zuzu%20Sushi%20page%20(Riza%20Incedal%20version).php">Order</a>
+              <a class="nav-link text-white text2" href="/Project%20Zuzu/PHP%20Files/Zuzu%20Customer Details%20(Riza%20Incedal%20version).php">Order</a>
             </li>
           </ul>
         </div>
@@ -74,59 +74,57 @@ if ($currentClock < 00) {
 
           <div class="card card1">
               <img src="/Project%20Zuzu/Images/Sushi1.jpg" class="card-img-top">
-              <div class="card-body border rounded">
+              <div class="card-body border rounded cb1">
                <p>Order your sushi at Zuzu</p>
               </div>
           </div>
 
           <div class="card card2">
               <img src="/Project%20Zuzu/Images/Sushi2.jpg" class="card-img-top">
-              <div class="card-body border rounded cb1">
-                  <p>Choice from different kinds of sushi</p>
+              <div class="card-body border rounded">
+              <p>Choice from different kinds of sushi</p>
               </div>
-          </div>
       </div>
 
-  <!--Footer-->
-  <footer class="bg-dark text-center text-white footer">
-      <div class="container p-4">
-          <section class="">
-              <form action="">
-                  <div class="row d-flex justify-content-center">
-                  </div>
-              </form>
-          </section>
-          <section class="">
-              <div class="row">
-                  <div class="col">
-                      <p><b>Contact</b><br>
-                          Zuzu <br>
-                          Kalealtı Caddesi 63,<br>
-                          63420 <a class= "link1" href="https://en.wikipedia.org/wiki/Birecik">Birecik</a> <br>
-                          zuzu.birecik@gmail.com <br>
-                          +904141516151</p>
-                  </div>
+          <!--Footer-->
+          <footer class="bg-dark text-center text-white footer">
+              <div class="container p-4">
+                  <section class="">
+                      <form action="">
+                          <div class="row d-flex justify-content-center">
+                          </div>
+                      </form>
+                  </section>
+                  <section class="">
+                      <div class="row">
+                          <div class="col">
+                              <p><b>Contact</b><br>
+                                  Zuzu <br>
+                                  Kalealtı Caddesi 63,<br>
+                                  63420 <a class= "link1" href="https://en.wikipedia.org/wiki/Birecik">Birecik</a> <br>
+                                  zuzu.birecik@gmail.com <br>
+                                  +904141516151</p>
+                          </div>
 
-                  <div class= "col"><b>Opening hours</b> <br>
-                      Monday: 09:00 - 00:00 <br>
-                      Tuesday: 09:00 - 00:00 <br>
-                      Wednesday: 09:00 - 00:00 <br>
-                      Thursday: 09:00 - 00:00 <br>
-                      Friday: 09:00 - 00:00 <br>
-                      Saturday: 09:00 - 00:00 <br>
-                      Sunday: 09:00 - 00:00 <br>
-                  </div>
+                          <div class= "col"><b>Opening hours</b> <br>
+                              Monday: 09:00 - 00:00 <br>
+                              Tuesday: 09:00 - 00:00 <br>
+                              Wednesday: 09:00 - 00:00 <br>
+                              Thursday: 09:00 - 00:00 <br>
+                              Friday: 09:00 - 00:00 <br>
+                              Saturday: 09:00 - 00:00 <br>
+                              Sunday: 09:00 - 00:00 <br>
+                          </div>
+                      </div>
+                  </section>
               </div>
-          </section>
-      </div>
 
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          <p class="text-white" > Copyright © 2022  Riza Incedal</p>
-      </div>
-  </footer>
+              <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                  <p class="text-white" > Copyright © 2022  Riza Incedal</p>
+              </div>
+          </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
-
 
 
